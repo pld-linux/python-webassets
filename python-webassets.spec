@@ -17,6 +17,7 @@ Source0:	%{module}-%{version}-clean.tar.gz
 # Source0-md5:	548e2a4125a11c0bf30398357059a725
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
