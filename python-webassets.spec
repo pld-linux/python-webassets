@@ -2,7 +2,7 @@
 Summary:	Media asset management for python
 Name:		python-%{module}
 Version:	0.8
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Libraries
 URL:		http://github.com/miracle2k/webassets
