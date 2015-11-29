@@ -11,7 +11,7 @@ Source0:	https://pypi.python.org/packages/source/w/webassets/%{module}-%{version
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.553
+BuildRequires:	rpmbuild(macros) >= 1.710
 Suggests:	python-jsmin
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
