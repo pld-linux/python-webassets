@@ -1,12 +1,12 @@
 %define		module	webassets
 Summary:	Media asset management for python
 Name:		python-%{module}
-Version:	0.11
-Release:	2
+Version:	0.12.1
+Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	https://pypi.python.org/packages/source/w/webassets/%{module}-%{version}.tar.gz
-# Source0-md5:	6f32ed5e06eac803ad4d1826540f389e
+# Source0-md5:	429401824556e6e0868e437f9e561ba6
 URL:		http://github.com/miracle2k/webassets
 BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
@@ -54,6 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %{py_sitescriptdir}/%{module}/filter/rjsmin
 %{py_sitescriptdir}/%{module}/filter/__init__.py[co]
 %{py_sitescriptdir}/%{module}/filter/autoprefixer.py[co]
+%{py_sitescriptdir}/%{module}/filter/babel.py[co]
 %{py_sitescriptdir}/%{module}/filter/cleancss.py[co]
 %{py_sitescriptdir}/%{module}/filter/clevercss.py[co]
 %{py_sitescriptdir}/%{module}/filter/closure.py[co]
@@ -74,7 +75,9 @@ rm -rf $RPM_BUILD_ROOT
 %{py_sitescriptdir}/%{module}/filter/less.py[co]
 %{py_sitescriptdir}/%{module}/filter/less_ruby.py[co]
 %{py_sitescriptdir}/%{module}/filter/libsass.py[co]
+%{py_sitescriptdir}/%{module}/filter/node_sass.py[co]
 %{py_sitescriptdir}/%{module}/filter/pyscss.py[co]
+%{py_sitescriptdir}/%{module}/filter/replace.py[co]
 %{py_sitescriptdir}/%{module}/filter/requirejs.py[co]
 %{py_sitescriptdir}/%{module}/filter/sass.py[co]
 %{py_sitescriptdir}/%{module}/filter/slimit.py[co]
